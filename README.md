@@ -52,3 +52,4 @@ df["CPA"] = df["spent"]/ df["total_conversion"]
 
 df.round({"spent":2,'CTR': 2, 'CPC': 2, "CPM":2, "CPA":2}).head(1)
 ```
+<img width="530" alt="Capture" src="https://user-images.githubusercontent.com/37181764/105889783-da1bdd80-600e-11eb-80e9-b88807196b4b.PNG">
