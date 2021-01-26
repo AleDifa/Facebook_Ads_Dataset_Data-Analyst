@@ -56,10 +56,13 @@ df.round({"spent":2,'CTR': 2, 'CPC': 2, "CPM":2, "CPA":2}).head(1)
 #Top 5 ads by number of impressions
 <img width="340" alt="Capture1" src="https://user-images.githubusercontent.com/37181764/105889963-09cae580-600f-11eb-8743-d890eebc6784.PNG">
 
-best CPC in df2
+best ads by CPC Cost per Click
 ```python
 df2.nlargest(3, 'CPC')
 ```
 <img width="337" alt="Capture2" src="https://user-images.githubusercontent.com/37181764/105890398-99709400-600f-11eb-8d19-27a6f20efcce.PNG">
 
-
+find the ad with max Impressions and min CPC
+```python
+df.agg({'impressions': 'max', 'CPC':'min'})
+```
