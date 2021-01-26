@@ -79,3 +79,6 @@ print((df.groupby(['campaign_id'])).total_conversion.sum())
 print('Campaign with more ad count')
 print((df.groupby(['campaign_id'])).ad_id.count())
 ```
+<img width="183" alt="Capture4" src="https://user-images.githubusercontent.com/37181764/105891306-c5d8e000-6010-11eb-89d5-bf37f0278a8c.PNG">
+
+
