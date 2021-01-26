@@ -60,5 +60,6 @@ best CPC in df2
 ```python
 df2.nlargest(3, 'CPC')
 ```
+<img width="337" alt="Capture2" src="https://user-images.githubusercontent.com/37181764/105890398-99709400-600f-11eb-8d19-27a6f20efcce.PNG">
 
 
