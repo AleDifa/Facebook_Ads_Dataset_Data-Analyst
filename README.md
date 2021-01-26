@@ -33,3 +33,18 @@ clicks - 0.0% <br>
 spent - 0.0% <br>
 total_conversion - 33.0% <br>
 approved_conversion - 33.0% <br>
+
+replace values
+```python
+df['AdSpendCurrency'].value_counts(dropna=False)
+df['AdSpendCurrency'].fillna('USD', inplace=True)
+df['total_conversion'].fillna(0.0, inplace=True)
+```
+
+Create KPI metrics
+```python
+df["CTR"] = df["clicks"]/ df["impressions"]*100
+df["CPC"] = df["spent"]/ df["clicks"]
+df["CPM"] = df["spent"]/ df["impressions"]*1000
+df["CPA"] = df["spent"]/ df["total_conversion"]
+```
