@@ -80,6 +80,7 @@ print('Campaign with more ad count')
 print((df.groupby(['campaign_id'])).ad_id.count())
 ```
 <img width="183" alt="Capture4" src="https://user-images.githubusercontent.com/37181764/105891886-6c24e580-6011-11eb-94b1-a5cc4233f93c.PNG">
+
 >The cost per click of campaign 1178 is 1.73<br>
 >The cost per conversion of campaign 1178 is 15.78<br>
 >The cost per ad in campaign 1178 is 68.22<br>
@@ -88,6 +89,7 @@ print((df.groupby(['campaign_id'])).ad_id.count())
 >The cost per conversion of campaign 916 is 2.58<br>
 >The cost per ad in campaign 916 is 2.77<br>
 <br>
+
 916 is the most efficient and profitable campaign:<br>
 The cpc and cost per conversion is very low compared other campaigns<br>
 If we scale up the campaign 916 to the budget of campaign 1178 we might drive 5 times more results of campaign 1178<br>
