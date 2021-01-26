@@ -84,10 +84,10 @@ print((df.groupby(['campaign_id'])).ad_id.count())
 >The cost per click of campaign 1178 is 1.73<br>
 >The cost per conversion of campaign 1178 is 15.78<br>
 >The cost per ad in campaign 1178 is 68.22<br>
-<br>
 >The cost per click of campaign 916 is 1.32<br>
 >The cost per conversion of campaign 916 is 2.58<br>
 >The cost per ad in campaign 916 is 2.77<br>
+
 <br>
 
 916 is the most efficient and profitable campaign:<br>
