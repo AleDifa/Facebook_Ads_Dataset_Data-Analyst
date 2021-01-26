@@ -80,10 +80,10 @@ print('Campaign with more ad count')
 print((df.groupby(['campaign_id'])).ad_id.count())
 ```
 <img width="183" alt="Capture4" src="https://user-images.githubusercontent.com/37181764/105891886-6c24e580-6011-11eb-94b1-a5cc4233f93c.PNG">
->The cost per click of campaign 1178 is 1.73
->The cost per conversion of campaign 1178 is 15.78
->The cost per ad in campaign 1178 is 68.22
+>The cost per click of campaign 1178 is 1.73<br>
+>The cost per conversion of campaign 1178 is 15.78<br>
+>The cost per ad in campaign 1178 is 68.22<br>
 <br>
->The cost per click of campaign 916 is 1.32
->The cost per conversion of campaign 916 is 2.58
->The cost per ad in campaign 916 is 2.77
+>The cost per click of campaign 916 is 1.32<br>
+>The cost per conversion of campaign 916 is 2.58<br>
+>The cost per ad in campaign 916 is 2.77<br>
