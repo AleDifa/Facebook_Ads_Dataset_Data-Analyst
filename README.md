@@ -39,7 +39,7 @@ replace values
 df['AdSpendCurrency'].value_counts(dropna=False)
 df['AdSpendCurrency'].fillna('USD', inplace=True)
 df['total_conversion'].fillna(0.0, inplace=True)
-This in Numpy replace all +inf -inf in df with nan
+`This in Numpy replace all +inf -inf in df with nan`
 df.replace([np.inf, -np.inf], np.nan,inplace=True)
 ```
 
@@ -49,6 +49,6 @@ df["CTR"] = df["clicks"]/ df["impressions"]*100
 df["CPC"] = df["spent"]/ df["clicks"]
 df["CPM"] = df["spent"]/ df["impressions"]*1000
 df["CPA"] = df["spent"]/ df["total_conversion"]
-<br>
+
 df.round({"spent":2,'CTR': 2, 'CPC': 2, "CPM":2, "CPA":2}).head(1)
 ```
