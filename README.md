@@ -21,4 +21,15 @@ for col in df.columns:
     pct_missing = np.mean(df[col].isnull())
     print('{} - {}%'.format(col, round(pct_missing*100)))
  ```   
- 
+campaign_id - 0.0% <br>
+fb_campaign_id - 0.0%  <br>
+PeopleWhoMatch - 71.0% <br>
+age - 0.0% <br>
+gender - 0.0% <br>
+Politics - 100.0% <br>
+AdSpendCurrency - 27.0% <br>
+impressions - 0.0% <br>
+clicks - 0.0% <br>
+spent - 0.0% <br>
+total_conversion - 33.0% <br>
+approved_conversion - 33.0% <br>
