@@ -62,7 +62,9 @@ df2.nlargest(3, 'CPC')
 ```
 <img width="337" alt="Capture2" src="https://user-images.githubusercontent.com/37181764/105890398-99709400-600f-11eb-8d19-27a6f20efcce.PNG">
 
-find the ad with max Impressions and min CPC
+find the ad with max Impressions and min CPC ( cpc is 0 because some data is not real)
 ```python
 df.agg({'impressions': 'max', 'CPC':'min'})
 ```
+<img width="164" alt="Capture3" src="https://user-images.githubusercontent.com/37181764/105890768-100d9180-6010-11eb-8c88-15dae97e4261.PNG">
+
