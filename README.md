@@ -67,4 +67,14 @@ find the ad with max Impressions and min CPC ( cpc is 0 because some data is not
 df.agg({'impressions': 'max', 'CPC':'min'})
 ```
 <img width="164" alt="Capture3" src="https://user-images.githubusercontent.com/37181764/105890768-100d9180-6010-11eb-8c88-15dae97e4261.PNG">
-
+#### Cost Analysis
+```python
+print('Campaign with more clicks')
+print((df.groupby(['campaign_id'])).clicks.sum())
+print('Campaign with more spent')
+print((df.groupby(['campaign_id'])).spent.sum())
+print('Campaign with more total conversions')
+print((df.groupby(['campaign_id'])).total_conversion.sum())
+print('Campaign with more ad count')
+print((df.groupby(['campaign_id'])).ad_id.count())
+```
