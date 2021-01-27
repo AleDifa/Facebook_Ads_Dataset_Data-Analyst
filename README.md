@@ -101,8 +101,11 @@ Total budget 1178 is 68.22 and generate 1.73 CPC- 68.22*5 = 341.11 cost with 8.6
 
 #### Age Analysis
 
+<img width="297" alt="Capture8" src="https://user-images.githubusercontent.com/37181764/105974511-44c02e00-608e-11eb-8c0a-331de429e217.PNG">
 
+```python
 print((df_916.groupby(['age'])).total_conversion.sum())
 print((df_916.groupby(['age'])).ad_id.count())
 print((df_1178.groupby(['age'])).total_conversion.sum())
 print((df_1178.groupby(['age'])).ad_id.count())
+```
