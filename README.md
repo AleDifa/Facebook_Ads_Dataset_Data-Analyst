@@ -98,7 +98,14 @@ Total budget 1178 is 68.22 and generate 1.73 CPC- 68.22*5 = 341.11 cost with 8.6
 
 
 #### Gender Analysis
+<img width="304" alt="Capture7" src="https://user-images.githubusercontent.com/37181764/105975183-f52e3200-608e-11eb-978c-2bd6c8a8c186.PNG">
 
 #### Age Analysis
-
 <img width="297" alt="Capture8" src="https://user-images.githubusercontent.com/37181764/105974511-44c02e00-608e-11eb-8c0a-331de429e217.PNG">
+
+
+Though we can get more conversion by targeting 30-39 and 40-49, in there range of 30-49 the age 30,31,32, 40 convert much more.<br>
+The number of ads are also different. but we focus the budget for 30-39 and 18-29, this last range of data generate low conversion.<br>
+Campaign 916 and 1178 have the same age conversion and cost.<br>
+
+
