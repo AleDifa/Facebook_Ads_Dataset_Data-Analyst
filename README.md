@@ -1,6 +1,6 @@
 # Facebook_Ads_Dataset_Data-Analyst
 In this dataset we clean data, create KPI feature and show a final valutation for understand the better parameter to perfome in Facebook advertising
-
+[see this work in a google presentation] (https://docs.google.com/presentation/d/1M0LKB86ajYzbToG5dQ0YlcIanVOMvudw5lAGoHZFrrY/edit#slide=id.gc6f83aa91_0_56)
 
 Steps:
 * Cleaning data
