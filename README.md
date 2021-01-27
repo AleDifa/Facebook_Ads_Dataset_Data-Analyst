@@ -49,8 +49,8 @@ df["CTR"] = df["clicks"]/ df["impressions"]*100
 df["CPC"] = df["spent"]/ df["clicks"]
 df["CPM"] = df["spent"]/ df["impressions"]*1000
 df["CPA"] = df["spent"]/ df["total_conversion"]
-
-df.round({"spent":2,'CTR': 2, 'CPC': 2, "CPM":2, "CPA":2}).head(1)
+df["Roas"] =  (df[ "total_conversion"]*5)  +  (df["approved_conversion"]*50) / df["spent"]
+df.round({"spent":2,'CTR': 2, 'CPC': 2, "CPM":2, "CPA":2, "Roas":2}).head(1)
 ```
 <img width="530" alt="Capture" src="https://user-images.githubusercontent.com/37181764/105889783-da1bdd80-600e-11eb-80e9-b88807196b4b.PNG">
 #Top 5 ads by number of impressions
@@ -107,5 +107,15 @@ Total budget 1178 is 68.22 and generate 1.73 CPC- 68.22*5 = 341.11 cost with 8.6
 Though we can get more conversion by targeting 30-39 and 40-49, in there range of 30-49 the age 30,31,32, 40 convert much more.<br>
 The number of ads are also different. but we focus the budget for 30-39 and 18-29, this last range of data generate low conversion.<br>
 Campaign 916 and 1178 have the same age conversion and cost.<br>
+
+
+## FINAL REPORT
+
+    The ideal campaign for the most efficient results can be created with the following metrics:
+    Gender : M
+    Age : 30 to 49
+    Interest Match : People who like Being Patriotic and Black Matters
+    Location: United States / Baltimore Maryland; Ferguson, St. Louis Missouri; Cleveland Ohio
+    comunication : News Feed on desktop/mobile or Instagram Feed
 
 
