@@ -109,3 +109,8 @@ print((df_916.groupby(['age'])).ad_id.count())
 print((df_1178.groupby(['age'])).total_conversion.sum())
 print((df_1178.groupby(['age'])).ad_id.count())
 ```
+
+age with more total conversions and ads<br><br>
+30     9.0<br>
+31     9.0<br><br>
+32    12.0<br>
